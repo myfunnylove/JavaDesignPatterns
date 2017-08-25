@@ -3,7 +3,8 @@
 ### Linklar 
 1. [Factory Pattern](#factory-pattern)
 2. [Abstract Factory Pattern](#abstract-factory-pattern)
-2. [Singleton Pattern](#singleton-pattern)
+3. [Singleton Pattern](#singleton-pattern)
+4. [Builder Pattern](#builder-pattern)
 ### Factory Pattern 
 
 
@@ -324,4 +325,169 @@ public class GetSingleton {
 Singleton message
 
 Process finished with exit code 0
+```
+
+### Builder Pattern
+
+> **Builder Pattern** ni yutuqlari _usablity_ va _readability_. Yana yutuq tarafi ko'p maydonga ega classdan obyekt yaratilayotganda ko'plab set metodlari ishlatilmasligida. Yana **Builder Pattern** asosida qurilgan klass _immutability_(o'zgarmas) maydonlarni ishlatishda kontstruktorga hamma maydonlar joylashtirilmaydi builderni o'zidan olinadi.
+
+> Address klass
+```java
+public class Address {
+
+    private final String city;
+
+    private final String district;
+
+    private final String streetHome;
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
+    public String getStreetHome() {
+        return streetHome;
+    }
+
+    //Address klassni builderi
+    public static class Builder{
+
+        private final String city;
+        private final String district;
+
+        private String streetHome = "";
+
+        public Builder(String city, String district) {
+            this.city = city;
+            this.district = district;
+        }
+
+        public Builder setStreetHome(String streetHome) {
+            this.streetHome = streetHome;
+            return this;
+        }
+
+        public Address build(){
+            return new Address(this);
+        }
+    }
+
+    
+    //final maydonlarni shu yerda yuklaymiz
+    private Address(Builder builder){
+        city = builder.city;
+        district = builder.district;
+        streetHome = builder.streetHome;
+
+    }
+}
+
+
+
+```
+> User klass
+
+```java
+public class User {
+
+    private final String firstName;
+
+    private final String lastName;
+
+    private final int age;
+
+    private final Address address;
+
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    
+    //User klassni builderi
+    public static class Builder{
+
+        private final String firstName;
+
+        private final String lastName;
+
+        private final int age;
+
+        private Address address;
+
+        public Builder(String firstName, String lastName, int age) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+        }
+
+        public Builder setAddress(Address address) {
+            this.address = address;
+
+            return this;
+        }
+
+        public User build(){
+            return new User(this);
+        }
+
+
+    }
+
+    //final maydonlar hammas konstruktor argumentiga joylashtirmasdan turib yuklanadi
+    private User(Builder builder){
+
+        firstName = builder.firstName;
+        lastName = builder.lastName;
+        age =builder.age;
+        address = builder.address;
+    }
+}
+```
+
+> ishlatish
+```java
+
+public class BuilderShow {
+
+    public static void main(String[] args) {
+
+        User user1 = new User.Builder("Muhammadjon","Xasanov",23)
+                .setAddress(new Address.Builder("Tashkent","M.Ulug'bek")
+                .setStreetHome("Data 4 home")
+                .build())
+                .build();
+
+        System.out.println(user1.getFirstName());
+
+        System.out.println(user1.getAddress()
+                                .getCity());
+    }
+}
+```
+
+>console
+
+```
+Muhammadjon
+Tashkent
+
+Process finished with exit code 0
+
 ```
