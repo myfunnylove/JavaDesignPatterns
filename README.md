@@ -1,8 +1,10 @@
 #Java Design Patterns
+
 ###Eslatma 
+
 #####Factory Method 
 
-  ######Shape.java 
+######Shape.java 
   
   >Universal shape class
   
