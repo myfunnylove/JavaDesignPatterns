@@ -1,10 +1,10 @@
 # Java Design Patterns
 
 ### Linklar 
-[Factory Pattern](#Factory#Pattern)
+[Factory Pattern](#FactoryPattern)
 
 
-### Factory Pattern 
+### FactoryPattern 
 
 
 > Universal shape interface
