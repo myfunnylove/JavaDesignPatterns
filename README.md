@@ -3,9 +3,9 @@
 <h5>Factory Method</h5> 
 <p> 
   Shape.java 
-  <pre>
+  ```java
     public interface Shape {
     void draw();
   }
-  </pre>
+  ```
   </p>
