@@ -1,8 +1,8 @@
 # Java Design Patterns
 
 ### Linklar 
-1. [Factory Pattern](./Factory#Pattern)
-2. [Abstract Factory Pattern](./Abstract#Factory#Pattern)
+1. [Factory Pattern](README.md/Factory#Pattern)
+2. [Abstract Factory Pattern](README.md/Abstract#Factory#Pattern)
 
 ### Factory Pattern 
 
