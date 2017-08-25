@@ -1,8 +1,9 @@
 # Java Design Patterns
 
-### Eslatma 
+### Linklar 
+1. [Factory Pattern](#Factory Pattern)
 
-### Factory Method 
+### Factory Pattern 
 
 
 > Universal shape interface
@@ -44,7 +45,7 @@ public class Square implements Shape {
 }
 ```
 
-> Endi asosiy **Factory method** ga ega class yaratamiz
+> Endi asosiy **Factory Pattern** ga ega class yaratamiz
 
 ```java
 public class ShapeFactory {
