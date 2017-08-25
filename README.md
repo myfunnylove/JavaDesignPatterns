@@ -2,7 +2,7 @@
 
 ### Linklar 
 1. [Factory Pattern](README.md/Factory#Pattern)
-2. [Abstract Factory Pattern](#/AbstractFactoryPattern)
+2. [Abstract Factory Pattern](#AbstractFactoryPattern)
 
 ### Factory Pattern 
 
