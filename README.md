@@ -1,12 +1,12 @@
-#Java Design Patterns
+# Java Design Patterns
 
-###Eslatma 
+### Eslatma 
 
-#####Factory Method 
+##### Factory Method 
 
-######Shape.java 
+###### Shape.java 
   
-  >Universal shape class
+  > Universal shape class
   
   ```java
     public interface Shape {
