@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ab16b37-fb84-47a1-9a39-1a119cb6380f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ActivityFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FactoryProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FragmentFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IntellijIdeaProjects/com/khasanov/FactoryPattern/FactoryPatternDemo.class" afterPath="$PROJECT_DIR$/out/production/IntellijIdeaProjects/com/khasanov/FactoryPattern/FactoryPatternDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +19,8 @@
       <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -43,8 +32,8 @@
       <file leaf-file-name="ProfileActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#142#143#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
@@ -53,31 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProfileFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#226#227#0" expanded="true" />
@@ -89,8 +58,8 @@
       <file leaf-file-name="SettingsFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -99,24 +68,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ActivityFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1158">
+                <caret line="278" column="33" lean-forward="false" selection-start-line="278" selection-start-column="33" selection-end-line="278" selection-end-column="33" />
+                <folding>
+                  <marker date="1503647970194" expanded="true" signature="388:399" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="443:450" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="545:556" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="603:609" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="909:1287" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2022:2047" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2079:2108" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2245:2367" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2287:2298" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="2359:2365" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="2423:2546" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2423:2745" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2465:2476" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="2538:2544" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="2615:2745" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2661:2672" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="2737:2743" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="2801:2932" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="2847:2858" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="2924:2930" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="3383:3845" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="3443:3749" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="3814:3825" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="3837:3843" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="3964:4426" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="4031:4042" ph=" { " />
+                  <marker date="1503647970194" expanded="true" signature="4054:4060" ph=" }" />
+                  <marker date="1503647970194" expanded="true" signature="4118:4424" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="4595:4821" ph="{...}" />
+                  <marker date="1503647970194" expanded="true" signature="4949:5730" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractFactoryPatternDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractFactoryPatternDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FactoryProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ActivityFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,12 +145,9 @@
       <file leaf-file-name="FragmentFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FragmentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +155,8 @@
       <file leaf-file-name="AbstractFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -173,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/com/khasanov/FactoryPattern/Square.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/FactoryPattern/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/FactoryPattern/FactoryPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileActivity.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainFragment.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileFragment.java" />
@@ -184,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FactoryProducer.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -213,6 +231,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,18 +392,21 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,6 +423,132 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FragmentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1503647970194" expanded="true" signature="388:399" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="443:450" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="545:556" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="603:609" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="909:1287" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2022:2047" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2079:2108" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2245:2367" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2287:2298" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2359:2365" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2423:2546" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2423:2745" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2465:2476" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2538:2544" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2615:2745" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2661:2672" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2737:2743" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2801:2932" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2847:2858" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2924:2930" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="3383:3845" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="3443:3749" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="3814:3825" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="3837:3843" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="3964:4426" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4031:4042" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="4054:4060" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="4118:4424" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4595:4821" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4949:5730" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/khasanov/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -455,8 +602,8 @@
         <state relative-caret-position="68">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="26" />
           <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="false" />
+            <element signature="e#179#180#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,8 +637,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="false" />
+            <element signature="e#179#180#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -520,64 +667,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FactoryProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ActivityFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FragmentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#147#148#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -585,10 +705,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ActivityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FragmentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
@@ -598,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/ProfileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
@@ -607,22 +759,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/SettingsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/khasanov/AbstractFactoryPattern/AbstractFactoryPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1503647970194" expanded="true" signature="388:399" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="443:450" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="545:556" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="603:609" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="909:1287" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2022:2047" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2079:2108" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2245:2367" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2287:2298" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="2359:2365" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="2423:2546" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2423:2745" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2465:2476" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="2538:2544" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="2615:2745" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2661:2672" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="2737:2743" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="2801:2932" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="2847:2858" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="2924:2930" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="3383:3845" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="3443:3749" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="3814:3825" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="3837:3843" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="3964:4426" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="4031:4042" ph=" { " />
+            <marker date="1503647970194" expanded="true" signature="4054:4060" ph=" }" />
+            <marker date="1503647970194" expanded="true" signature="4118:4424" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="4595:4821" ph="{...}" />
+            <marker date="1503647970194" expanded="true" signature="4949:5730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1158">
+            <caret line="278" column="33" lean-forward="false" selection-start-line="278" selection-start-column="33" selection-end-line="278" selection-end-column="33" />
+            <folding>
+              <marker date="1503647970194" expanded="true" signature="388:399" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="443:450" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="545:556" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="603:609" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="909:1287" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2022:2047" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2079:2108" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2245:2367" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2287:2298" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2359:2365" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2423:2546" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2423:2745" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2465:2476" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2538:2544" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2615:2745" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2661:2672" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2737:2743" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="2801:2932" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="2847:2858" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="2924:2930" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="3383:3845" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="3443:3749" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="3814:3825" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="3837:3843" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="3964:4426" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4031:4042" ph=" { " />
+              <marker date="1503647970194" expanded="true" signature="4054:4060" ph=" }" />
+              <marker date="1503647970194" expanded="true" signature="4118:4424" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4595:4821" ph="{...}" />
+              <marker date="1503647970194" expanded="true" signature="4949:5730" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
