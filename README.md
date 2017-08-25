@@ -3,7 +3,7 @@
 ### Linklar 
 1. [Factory Pattern](#factory-pattern)
 2. [Abstract Factory Pattern](#abstract-factory-pattern)
-
+2. [Singleton Pattern](#singleton-pattern)
 ### Factory Pattern 
 
 
@@ -144,7 +144,7 @@ public class SettingsFragment implements MainFragment {
 }
 ```
 
-> Kerakli activity yoki fragmentni oladigan **Abstract Factory Method** ga tegishli class
+> Kerakli activity yoki fragmentni oladigan **Abstract Factory Pattern** ga tegishli class
 
 ```java
 public abstract class AbstractFactory {
@@ -275,6 +275,53 @@ ProfileActivity oncreate method called
 SettingsActivity oncreate method called
 ProfileFragment oncreateview method called
 SettingsFragment oncreateview method called
+
+Process finished with exit code 0
+```
+
+
+### Singleton Pattern
+
+> **Singleton Pattern** class
+
+```java
+public class SingletonFragment {
+
+    private static SingletonFragment mInstance;
+
+    public static SingletonFragment getInstance(){
+        if (mInstance == null) mInstance = new SingletonFragment();
+
+
+        return mInstance;
+
+    }
+
+    private SingletonFragment(){
+
+    }
+    
+    public void showMessage(){
+        System.out.println("Singleton message");
+    }
+}
+```
+> ishlatamiz
+```java
+public class GetSingleton {
+
+    public static void main(String[] args) {
+
+        SingletonFragment singletonFragment = SingletonFragment.getInstance();
+
+        singletonFragment.showMessage();
+
+    }
+}
+```
+>console
+```
+Singleton message
 
 Process finished with exit code 0
 ```
