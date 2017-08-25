@@ -1,10 +1,10 @@
 # Java Design Patterns
 
 ### Linklar 
-1. [Factory Pattern](FactoryPattern)
-2. [Abstract Factory Pattern](AbstractFactoryPattern)
+1. [Factory Pattern](./Factory#Pattern)
+2. [Abstract Factory Pattern](./Abstract#Factory#Pattern)
 
-### FactoryPattern 
+### Factory Pattern 
 
 
 > Universal shape interface
@@ -92,4 +92,4 @@ Rectangle::draw() method
 Process finished with exit code 0
 ```        
   
-### AbstractFactoryPattern 
+### Abstract Factory Pattern 
