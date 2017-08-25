@@ -44,7 +44,7 @@ public class Square implements Shape {
 }
 ```
 
-> #### Endi asosiy Factory methodga egaa class yaratamiz
+> Endi asosiy **Factory method** ga ega class yaratamiz
 
 ```java
 public class ShapeFactory {
@@ -67,7 +67,7 @@ public class ShapeFactory {
 
 }
 ```
-> ##### endi priznak bilan kerakli class ni olamiz
+> endi priznak bilan kerakli class ni olamiz
 
 ```java
         ShapeFactory shapeFactory = new ShapeFactory();
@@ -81,11 +81,11 @@ public class ShapeFactory {
         Shape rectangle = shapeFactory.getShape("RECTANGLE");
         rectangle.draw();
 ```
-######console: 
+###### console: 
 > Circle::draw() method
-> Square::draw() method
-> Rectangle::draw() method
+Square::draw() method
+Rectangle::draw() method
 
-> Process finished with exit code 0
+Process finished with exit code 0
         
   
