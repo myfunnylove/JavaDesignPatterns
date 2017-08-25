@@ -81,7 +81,7 @@ public class ShapeFactory {
         Shape rectangle = shapeFactory.getShape("RECTANGLE");
         rectangle.draw();
 ```
-###### console: 
+> console: 
 ```
 Circle::draw() method
 Square::draw() method
