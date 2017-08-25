@@ -1,8 +1,8 @@
 # Java Design Patterns
 
 ### Linklar 
-1. [Factory Pattern](README.md/Factory#Pattern)
-2. [Abstract Factory Pattern](#AbstractFactoryPattern)
+1. [Factory Pattern](#factory-pattern)
+2. [Abstract Factory Pattern](#abstract-factory-pattern)
 
 ### Factory Pattern 
 
@@ -92,4 +92,4 @@ Rectangle::draw() method
 Process finished with exit code 0
 ```        
   
-### AbstractFactoryPattern 
+### Abstract Factory Pattern 
