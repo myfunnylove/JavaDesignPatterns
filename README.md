@@ -2,7 +2,7 @@
 
 ### Linklar 
 1. [Factory Pattern](README.md/Factory#Pattern)
-2. [Abstract Factory Pattern](README.md/Abstract#Factory#Pattern)
+2. [Abstract Factory Pattern](#/AbstractFactoryPattern)
 
 ### Factory Pattern 
 
@@ -92,4 +92,4 @@ Rectangle::draw() method
 Process finished with exit code 0
 ```        
   
-### Abstract Factory Pattern 
+### AbstractFactoryPattern 
