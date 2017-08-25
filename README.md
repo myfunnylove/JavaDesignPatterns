@@ -1,10 +1,24 @@
-# Java Design Patterns
+# Design Patterns (Java)
+
+**Design Pattern** lar 3 xil kategoriya asosida tashkil topgan : 
+1. Generative | Generativ    | Порождающие - _Qulay va xavfsiz obyekt yaratishda hatto obyektlar oilasini yaratishda ishlatiladi._
+2. Structural | Strukturaviy | Структурные - _klasslar ierarxiyasini qulay tashkil qilish_ 
+3. Behavioral | Vazifali     | Поведенческие - _obyektlar orasi xavfsiz, effektiv aloqani ta'minlash_
+
 
 ### Linklar 
+
+**Generative Patterns**
+
 1. [Factory Pattern](#factory-pattern)
 2. [Abstract Factory Pattern](#abstract-factory-pattern)
 3. [Singleton Pattern](#singleton-pattern)
 4. [Builder Pattern](#builder-pattern)
+5. [Prototype Pattern](#prototype-pattern)
+
+**Structural Patterns**
+
+6. [Adapter Pattern](#adapter-pattern)
 ### Factory Pattern 
 
 
@@ -491,3 +505,128 @@ Tashkent
 Process finished with exit code 0
 
 ```
+
+### Prototype Pattern
+
+### Adapter Pattern
+
+> **Adapter Pattern** - ikkita bir biriga mos kelmaydigan interfacelarga most vazifasini yaratib beradi
+
+> Bir biriga mos tushmaydigan interfacelar
+```java
+public interface MediaPlayer {
+
+    void play(String audioType,String fileName);
+}
+
+public interface AdvancedMediaPlayer {
+
+    void playVLC(String fileName);
+    void playMp4(String fileName);
+}
+```
+
+> **AdvancedMediaPlayer** ga tegishli klasslar
+```java
+public class MP4Player implements AdvancedMediaPlayer {
+    @Override
+    public void playVLC(String fileName) {
+//        System.out.println("play VLC name + "+fileName);
+    }
+
+    @Override
+    public void playMp4(String fileName) {
+        System.out.println("play mp4 name + "+fileName);
+
+    }
+}
+
+public class VLCPlayer implements AdvancedMediaPlayer {
+    @Override
+    public void playVLC(String fileName) {
+        System.out.println("play VLC name + "+fileName);
+    }
+
+    @Override
+    public void playMp4(String fileName) {
+//        System.out.println("play VLC name + "+fileName);
+
+    }
+}
+```
+> Biz **AdvancedMediaPlayer** interfaceni **MediaPlayer** dan extend olgan **AudioPlayer** klassga tenglashtirishimiz uchun adapter yaratamiz.
+
+```java
+public class MediaAdapter implements MediaPlayer {
+
+    AdvancedMediaPlayer advancedMediaPlayer;
+
+    public MediaAdapter(String audioType) {
+
+        if (audioType.equalsIgnoreCase("vlc")){
+            advancedMediaPlayer = new VLCPlayer();
+        }else if (audioType.equalsIgnoreCase("mp4")){
+            advancedMediaPlayer = new MP4Player();
+        }
+
+    }
+
+    @Override
+    public void play(String audioType, String fileName) {
+
+        if (audioType.equalsIgnoreCase("vlc")){
+            advancedMediaPlayer.playVLC(fileName);
+        }else if (audioType.equalsIgnoreCase("mp4")){
+            advancedMediaPlayer.playMp4(fileName);
+        }
+    }
+}
+
+```
+> Endi **AudioPlayer** ga **AdvancedMediaPlayer** birlashtiramiz
+```java
+public class AudioPlayer implements MediaPlayer {
+
+    MediaAdapter mediaAdapter;
+
+    @Override
+    public void play(String audioType, String fileName) {
+
+        if (! audioType.equalsIgnoreCase("mp3")){
+            mediaAdapter = new MediaAdapter(audioType);
+            mediaAdapter.play(audioType,fileName);
+
+        }else {
+            System.out.println("play mp3 name + "+fileName);
+
+        }
+    }
+}
+```
+> natijani tekshirib ko'ramiz
+```java
+public class AdapterPatternDemo {
+
+    public static void main(String[] args) {
+
+        AudioPlayer audioPlayer = new AudioPlayer();
+        audioPlayer.play("mp3","jonim.mp3");
+        audioPlayer.play("mp4","kino.mp4");
+        audioPlayer.play("vlc","ubuntuKino.vlc");
+    }
+}
+
+```
+> console
+
+```
+play mp3 name + jonim.mp3
+play mp4 name + kino.mp4
+play VLC name + ubuntuKino.vlc
+
+Process finished with exit code 0
+```
+
+
+
+ 
