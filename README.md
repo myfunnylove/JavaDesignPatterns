@@ -20,6 +20,7 @@
 
 6. [Adapter Pattern](#adapter-pattern)
 7. [Bridge Pattern](#bridge-pattern)
+8. [Decorator Pattern](#decorator-pattern)
 ### Factory Pattern 
 
 
