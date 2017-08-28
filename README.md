@@ -19,6 +19,7 @@
 **Structural Patterns**
 
 6. [Adapter Pattern](#adapter-pattern)
+7. [Bridge Pattern](#bridge-pattern)
 ### Factory Pattern 
 
 
@@ -626,7 +627,160 @@ play VLC name + ubuntuKino.vlc
 
 Process finished with exit code 0
 ```
+### Bridge Pattern
+
+> **Bridge Pattern**da ikkita alohida biznes logikani bitta ko'rinishga olib kelib ishlatishni ta'minlab beradi
+
+>2 ta alohida klassimiz bor buni bir xil
+```java
+public interface Device {
+
+    void setVolume(int i);
+    int getVolume();
+
+    void setEnable(boolean enable);
+    boolean isEnabled();
 
 
+    void status();
 
+}
+
+public class Radio implements Device {
+
+    private boolean isEnabled = false;
+    private int volume = 0;
+
+
+    @Override
+    public void setVolume(int i) {
+        volume = i;
+    }
+
+    @Override
+    public int getVolume() {
+        return volume;
+    }
+
+    @Override
+    public void setEnable(boolean enable) {
+        isEnabled = enable;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return isEnabled;
+    }
+
+    @Override
+    public void status() {
+        System.out.println("=====================");
+        System.out.println("| volume: "+volume);
+        System.out.println("| isEnabled: "+isEnabled);
+        System.out.println("=====================");
+    }
+}
+
+public class TV implements Device {
+
+    private boolean isEnabled = false;
+    private int volume = 0;
+
+
+    @Override
+    public void setVolume(int i) {
+        volume = i;
+    }
+
+    @Override
+    public int getVolume() {
+        return volume;
+    }
+
+    @Override
+    public void setEnable(boolean enable) {
+        isEnabled = enable;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return isEnabled;
+    }
+
+    @Override
+    public void status() {
+        System.out.println("=====================");
+        System.out.println("| volume: "+volume);
+        System.out.println("| isEnabled: "+isEnabled);
+        System.out.println("=====================");
+    }
+}
+```
+
+> buni bir xil tarzda ishlashiga most yaratamiz
+```java
+public interface Remote {
+
+    void volumeDown();
+
+    void volumeUp();
+
+    void turnOn();
+    void turnOff();
+}
+
+
+public class BaseRemote implements Remote {
+
+    protected Device device;
+
+    public BaseRemote(Device device) {
+        this.device = device;
+    }
+
+    public BaseRemote() {
+    }
+
+    @Override
+    public void volumeDown() {
+        device.setVolume(device.getVolume() - 1);
+    }
+
+    @Override
+    public void volumeUp() {
+        device.setVolume(device.getVolume() + 1);
+
+    }
+
+    @Override
+    public void turnOn() {
+        device.setEnable(true);
+
+    }
+
+    @Override
+    public void turnOff() {
+        device.setEnable(false);
+
+    }
+}
+```
+> natijani ishlatib ko'ramiz
+```java
+
+public class BridgeDemo {
+
+    public static void main(String[] args) {
+
+        BaseRemote baseRemote = new BaseRemote(new TV());
+        baseRemote.turnOn();
+        baseRemote.volumeUp();
+
+
+        MultiRemote multiRemote = new MultiRemote(new TV());
+        multiRemote.turnOn();
+
+    }
+}
+```
  
