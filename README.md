@@ -631,7 +631,7 @@ Process finished with exit code 0
 
 > **Bridge Pattern**da ikkita alohida biznes logikani bitta ko'rinishga olib kelib ishlatishni ta'minlab beradi
 
->2 ta alohida klassimiz bor buni bir xil
+>2 ta alohida klassimiz bor
 ```java
 public interface Device {
 
