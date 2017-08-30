@@ -21,6 +21,8 @@
 6. [Adapter Pattern](#adapter-pattern)
 7. [Bridge Pattern](#bridge-pattern)
 8. [Decorator Pattern](#decorator-pattern)
+9. [Facade Pattern](#facade-pattern)
+10. [Proxy Pattern](#proxy-pattern)
 ### Factory Pattern 
 
 
@@ -979,6 +981,55 @@ public class DecoratorDemo {
         System.out.println(plain.readData());
         System.out.println("- Decoded --------------");
         System.out.println(baseDecorator.readData());
+    }
+}
+```
+### Facade Pattern
+
+
+### Proxy Pattern
+> Bunda asosiy obyektdaka kopiya yaratilib xuddi shu obyekt ishini bajaruvchi pattern hosil qilinadi
+```java
+
+public interface Image {
+
+
+    void display();
+}
+
+
+public class RealImage implements Image {
+    private String fileName;
+
+    public RealImage(String fileName){
+        this.fileName = fileName;
+        loadFromDisk(fileName);
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Displaying " + fileName);
+    }
+
+    private void loadFromDisk(String fileName){
+        System.out.println("Loading " + fileName);
+    }
+}
+
+public class ProxyImage implements Image {
+    private RealImage realImage;
+    private String fileName;
+
+    public ProxyImage(String fileName){
+        this.fileName = fileName;
+    }
+
+    @Override
+    public void display() {
+        if(realImage == null){
+            realImage = new RealImage(fileName);
+        }
+        realImage.display();
     }
 }
 ```
