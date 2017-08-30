@@ -23,6 +23,7 @@
 8. [Decorator Pattern](#decorator-pattern)
 9. [Facade Pattern](#facade-pattern)
 10. [Proxy Pattern](#proxy-pattern)
+11. [Flyweight Pattern](#flyweight-pattern)
 ### Factory Pattern 
 
 
@@ -988,7 +989,7 @@ public class DecoratorDemo {
 
 
 ### Proxy Pattern
-> Bunda asosiy obyektdaka kopiya yaratilib xuddi shu obyekt ishini bajaruvchi pattern hosil qilinadi
+> Bunda asosiy obyektni ustiga qobiq yaratilib o'zini ishini bajarib va obyektni ishini ham bajaruvchi pattern hisoblanadi.
 ```java
 
 public interface Image {
@@ -1033,3 +1034,7 @@ public class ProxyImage implements Image {
     }
 }
 ```
+
+### Flyweight Pattern
+> Bu pattern operativ xotira hajmini oshib ketmasligini ta'minlaydi.
+> svoystvasi bir xil obyektlarni qayta yaratmaydi
